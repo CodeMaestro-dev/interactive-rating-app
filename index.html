@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front End Mentor Interactive Rating Challenege</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="rating-main">
+      <div class="rating-main__star">
+        <img src="./assets/images/icon-star.svg" role="presentation" />
+      </div>
+      <div class="rating-main__text">
+        <h1>How did we go?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div class="rating-main__raters">
+        <button class="rating-button">1</button>
+        <button class="rating-button">2</button>
+        <button class="rating-button">3</button>
+        <button class="rating-button">4</button>
+        <button class="rating-button">5</button>
+      </div>
+      <button class="rating-main__submit">Submit</button>
+    </div>
+    <div class="thanks-main hidden">
+      <img
+        src="./assets/images/illustration-thank-you.svg"
+        role="presentation"
+      />
+      <div class="thanks-main__rating-number">
+        <p>You selected <span class="rating-number">4</span> out of 5</p>
+      </div>
+      <div class="thanks-main__note">
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
