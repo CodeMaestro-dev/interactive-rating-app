@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 p {
@@ -27,6 +28,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+@media screen and (max-width: 400px) {
+  .rating-main {
+    width: 100%;
+  }
 }
 .rating-main__star {
   background-color: #344252;
@@ -96,6 +102,11 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .thanks-main {
+    width: 100%;
+  }
 }
 .thanks-main__rating-number {
   background-color: #344252;
